@@ -2,7 +2,7 @@
 ##Introduction
 
 ## Description
-In this assignment 
+In this assignment we will be extending the existing database to include a rating system that applys to both drivers and restaurants.
 
 ## Use Case
 
