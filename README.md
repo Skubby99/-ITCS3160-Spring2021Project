@@ -1,4 +1,5 @@
 # -ITCS3160-Spring2021Project
+Group Memebers: Joseph Mauney, Marco Busselli, Richard Fry
 ## Introduction
 With the rise of food delivery services and concern for Covid safety, Universities are taking a new approach in restricting visitor traffic by implementing a campus controlled food delivery service. The university must approve the drivers and restaurants that are available in the app.
 
