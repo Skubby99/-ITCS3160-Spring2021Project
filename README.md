@@ -54,3 +54,4 @@ In this assignment we will be extending the existing database to include a ratin
 
 
 ## EERD
+[EERD-with-Rating](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/EERDProj1.PNG)
