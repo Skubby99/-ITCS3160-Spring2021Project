@@ -1,10 +1,11 @@
 # -ITCS3160-Spring2021Project
-Introduction
+##Introduction
 
-Description
+## Description
+In this assignment 
 
-Use Case
+## Use Case
 
-Business Rules
+## Business Rules
 
-EERD
+## EERD
