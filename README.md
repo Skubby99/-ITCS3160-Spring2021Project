@@ -3,7 +3,7 @@
 With the rise of food delivery services and concern for Covid safety, Universities are taking a new approach in restricting visitor traffic by implementing a campus controlled food delivery service. The university must approve the drivers and restaurants that are available in the app.
 
 ## Description
-In this assignment we are extending an existing database (provided by student group “Mavericks”) on a Delivery service that is controlled by the campus to restrict drivers to be approved delivery personnel which currently only allows students and has a cap of 8 drivers. Our goal is to implement a rating system into the database.
+In this assignment we are extending an existing database (provided by student group “Mavericks”) on a Delivery service that is controlled by the campus that restricts drivers to be approved delivery personnel, which currently only allows for students and has a cap of 8 drivers. Our goal is to implement a rating system into the database.
 
 ## Use Case
 
