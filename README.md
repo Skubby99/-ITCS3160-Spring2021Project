@@ -13,6 +13,7 @@ In this assignment we will be extending the existing database to include a ratin
 * A driver must be a student 
 * There can only be 8 approved drivers
 * A driver can have many vehicles 
+* A driver must be approved
 #### Restaurant
 * A Restaurant must be approved by the university inorder to be included into database
 * A Restaurant can have multiple ratings
