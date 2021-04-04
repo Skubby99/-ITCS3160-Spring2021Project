@@ -6,7 +6,7 @@ With the rise of food delivery services and concern for Covid safety, Universiti
 In this assignment we are extending an existing database (provided by student group “Mavericks”) on a Delivery service that is controlled by the campus that restricts drivers to be approved delivery personnel, which currently only allows for students and has a cap of 8 drivers. Our goal is to implement a rating system into the database.
 
 ## Use Case
-
+![Use-Case](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/BetterUseCase.PNG)
 ## Business Rules
 #### Driver
 * A driver can have multiple ratings 
