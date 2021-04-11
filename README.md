@@ -65,3 +65,6 @@ In this assignment we are extending an existing database (provided by student gr
 
 ## Test Data being used in Rating
 ![Rating-Test-Data](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/TestData.PNG)
+
+## Rating SQL file with Data
+![Rating-SQl-file](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/RatingSQL.sql)
