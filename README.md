@@ -62,3 +62,6 @@ In this assignment we are extending an existing database (provided by student gr
 
 ## Updated EERD with implemeneted Rating Table
 ![EERD-with-Rating](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/EERDUPDATE.png)
+
+## Test Data being used in Rating
+![Rating-Test-Data](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/TestData.PNG)
