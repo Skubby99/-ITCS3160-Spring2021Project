@@ -66,7 +66,7 @@ In this assignment we are extending an existing database (provided by student gr
 ## Test Data being used in Rating
 ![Rating-Test-Data](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/TestData.PNG)
 
-## Rating SQL file with Data
+## Rating SQL file with Data (Deliverable 3)
 ![Rating-SQl-file](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/RatingSQL.sql)
 
 ## Stored Procedures
@@ -135,3 +135,6 @@ driver_id is the only working index
 ![index_driver_sucess](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/index_driver_success.png)
 restaurant_id is called but does not get picked up by SQL instead using the Primary Key
 ![index_restaurant_fail](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/index_restaurant_fail.png)
+
+### Final SQL DUMP (Deliverable 4)
+![Fianl_SQL_DUMP](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/Deliverable4_Final_SQLDump.sql)
