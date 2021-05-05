@@ -124,6 +124,7 @@ ORDER by Number_of_Orders DESC;
 * Indexes provide a fast way to fetch table data 
 * they can be used with both tables and individual columns
 * allows for the use of explain to showcase the reduction in time
+
 Indexes in our project:
 ```
 Ratings (RestScore, DriverScore)
