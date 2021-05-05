@@ -69,7 +69,7 @@ In this assignment we are extending an existing database (provided by student gr
 ## Rating SQL file with Data
 ![Rating-SQl-file](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/RatingSQL.sql)
 
-##Stored Procedures
+## Stored Procedures
 Min/Max/Avg Scores for Drivers
 ```
 Delimiter //
@@ -121,7 +121,7 @@ GROUP By driver_id
 ORDER by Number_of_Orders DESC;
 ```
 ## Indexes
-Indexes provide a fast way to fetch table data and can be used with both tables and individual columns
+Indexes provide a fast way to fetch table data and can be used with both tables and individual columns\n
 Indexes in our project:
 ```
 Ratings (RestScore, DriverScore)
