@@ -68,3 +68,63 @@ In this assignment we are extending an existing database (provided by student gr
 
 ## Rating SQL file with Data
 ![Rating-SQl-file](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/RatingSQL.sql)
+
+##Stored Procedures
+Min/Max/Avg Scores for Drivers
+```
+Delimiter //
+CREATE PROCEDURE MinMaxAvgScoresDriver()
+BEGIN
+Select d.driver_id, CAST(AVG(r.DriverScore) AS DECIMAL(10,2)) as Average_Driver_Score, max(r.DriverScore) as Maximum_Driver_Score, MIN(r.DriverScore) as Minimum_Driver_Score
+From driver as d
+Inner join ratings as r
+On d.driver_id = r.driver_id
+Group By driver_id
+Order by d.driver_id;
+END //
+Delimiter ;
+```
+
+Min/Max/Avg Scores for Restaurnats
+```
+Delimiter //
+CREATE PROCEDURE MinMaxAvgScoresRestaurant()
+BEGIN
+Select re.restaurant_id, re.restaurant_name, CAST(AVG(r.RestScore) AS DECIMAL(10,2)) as Average_Restaurant_Score, max(r.RestScore) as Maximum_Restaurant_Score, MIN(r.RestScore) as Minimum_Restaurant_Score
+From restaurant as re
+Inner join ratings as r
+On re.restaurant_id = r.restaurant_id
+Group By restaurant_id
+Order by re.restaurant_id;
+END //
+Delimiter ;
+```
+## Advanced Views
+Queries the scores for restaurnts that are open from 9am - 10pm
+```
+Select re.restaurant_name, r.RestScore as Restuarant_Score 
+From ratings as r
+Inner Join restaurant as re 
+On re.restaurant_id = r.restaurant_id
+Where r.restaurant_id IN (Select restaurant_id From restaurant Where schedule = "9am -10pm");
+```
+
+Queries drive's student information and number of orders they have taken
+```
+Select d.driver_id, s.major, s.graduation_year, count(o.order_id) as Number_of_Orders
+FROM driver as d
+INNER join orders as o
+ON o.driver_id = d.driver_id
+Inner join student as s
+On s.student_id = d.student_id
+GROUP By driver_id
+ORDER by Number_of_Orders DESC;
+```
+## Indexes
+Indexes provide a fast way to fetch table data and can be used with both tables and individual columns
+Indexes in our project:
+```
+Ratings (RestScore, DriverScore)
+Driver (driver_id)
+Restaurant (restaurant_id, restaurant_name)
+```
