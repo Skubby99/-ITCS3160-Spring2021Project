@@ -132,5 +132,6 @@ Driver (driver_id)
 Restaurant (restaurant_id, restaurant_name)
 ```
 driver_id is the only working index
-
+![index_driver_sucess](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/index_driver_success.png)
 restaurant_id is called but does not get picked up by SQL instead using the Primary Key
+![index_restaurant_fail](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/index_restaurant_fail.png)
