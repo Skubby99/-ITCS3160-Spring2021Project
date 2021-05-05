@@ -65,6 +65,7 @@ In this assignment we are extending an existing database (provided by student gr
 
 ## Test Data being used in Rating
 ![Rating-Test-Data](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/TestData.PNG)
+![Rating-CSV-File](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/SQLPArt3.csv)
 
 ## Rating SQL file with Data (Deliverable 3)
 ![Rating-SQl-file](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/RatingSQL.sql)
@@ -137,4 +138,4 @@ restaurant_id is called but does not get picked up by SQL instead using the Prim
 ![index_restaurant_fail](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/index_restaurant_fail.png)
 
 ### Final SQL DUMP (Deliverable 4)
-![Fianl_SQL_DUMP](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/Deliverable4_Final_SQLDump.sql)
+![Fianl-SQL-DUMP](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/Deliverable4_Final_SQLDump.sql)
