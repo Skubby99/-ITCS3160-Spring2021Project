@@ -131,3 +131,6 @@ Ratings (RestScore, DriverScore)
 Driver (driver_id)
 Restaurant (restaurant_id, restaurant_name)
 ```
+driver_id is the only working index
+
+restaurant_id is called but does not get picked up by SQL instead using the Primary Key
