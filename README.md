@@ -1,5 +1,6 @@
 # -ITCS3160-Spring2021Project
 Group Members: Joseph Mauney, Marco Busselli, Richard Fry
+
 ## Introduction
 With the rise of food delivery services and concern for Covid safety, Universities are taking a new approach in restricting visitor traffic by implementing a campus controlled food delivery service. The university must approve the drivers and restaurants that are available in the app.
 
@@ -138,4 +139,7 @@ restaurant_id is called by sql but does not get used by SQL, instead sql uses th
 ![index_restaurant_fail](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/imgs/index_restaurant_fail.png)
 
 ### Final SQL DUMP (Deliverable 4)
-![Fianl-SQL-DUMP](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/Deliverable4_Final_SQLDump.sql)
+![Final-SQL-DUMP](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/Deliverable4_Final_SQLDump.sql)
+
+## Fianl Video (Deliverable 4)
+![Final-Video-Presentation](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/2021-05-05%2019-57-53.mkv)
