@@ -141,5 +141,5 @@ restaurant_id is called by sql but does not get used by SQL, instead sql uses th
 ### Final SQL DUMP (Deliverable 4)
 ![Final-SQL-DUMP](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/Project/Deliverable4_Final_SQLDump.sql)
 
-## Fianl Video (Deliverable 4)
+### Final Video (Deliverable 4)
 ![Final-Video-Presentation](https://github.com/Skubby99/-ITCS3160-Spring2021Project/blob/main/2021-05-05%2019-57-53.mkv)
